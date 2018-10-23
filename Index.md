@@ -9,11 +9,14 @@ This blog entry is to give an update to my progress on my hardware sensor. I con
 Image of what I have so far:
 [Hardware Connection](hardware.png)
 
+
 Week 7 Pseudocode Submission
 -------------------------------
 
+
 Week 6 
 ----------
+
 
 Week 5 Proof of purchase
 -------------
