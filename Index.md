@@ -10,8 +10,10 @@ Image of what I have so far:
 [Hardware Connection](hardware.png)
 
 Week 7 Pseudocode Submission
+-------------------------------
 
 Week 6 
+----------
 
 Week 5 Proof of purchase
 -------------
