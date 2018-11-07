@@ -2,6 +2,12 @@
 SSD1306_OLED_Sensor
 ===============
 
+### November 6th, 2018 (Week 10)
+
+As outlined in my [project schedule](https://github.com/six0four/StudentSenseHat/blob/master/documentation/Week3RubricforProjectSchedule.xml), today is the PCB soldered milestone. With the completion of this milestone, I am within schedule with respect to the project completion. During the past week, I worked on creating the layout for PCB wiring and design in Fritzing. I aim to connect the SSD1306 OLED Monochrome display with the Raspberry Pi, and the sockets to enable this process were incorporated into the PCB design. I found [a site that offered hepful](https://www.raspberrypi-spy.co.uk/2018/04/i2c-oled-display-module-with-raspberry-pi/) information regarding connecting the pins and configuring the I2C interface, along with importing the relevant Python libraries. As outlined in my previous post, there was a problem detecting the address of the SSD1306 display. However, collaboration with Kelly and Vlad from the Prototype Lab helped to resolve the issue. That issue gave me an opportunity to delve deeper into troubleshooting hardware and sharpening my soldering skills. 
+
+My [Budget](https://github.com/six0four/MicroRover/raw/master/PartsFor20MicroRoversRev02.xlsx) included headers, but these were not bought with the other products. Therefore, these [headers](https://www.digikey.ca/product-detail/en/sullins-connector-solutions/PPTC081LFBN-RC/S7006-ND/810147) were had from the Prototype Lab with a collective value of [$5.06](https://www.digikey.ca/product-detail/en/adafruit-industries-llc/2223/1528-1385-ND/5629433). My PCB design was done and Gerber files sent to the Protoype Lab for production without any problems. Here is an image of the [final PCB](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV06.fzz) with soldered headers connected to the Rapberry pi and the [Fritzing files](jshgfojhsadf) that they result from. 
+
 
 Week 9 PCB
 ---------------
