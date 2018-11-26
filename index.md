@@ -22,46 +22,48 @@ My [Budget](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/D
 
 
 ### October 30th, 2018 (Week 10)
----------------
+
 This blog entry is to give a progress update on my hardware project. As indicated in my [project schedule](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Project_Schedule.mpp) this week is the PCB designed milestone. Last week there were some issues detecting the sensor's I2C address. However, after visiting Kelly and Vlad in the prototype lab during the course of the week we managed to find the problem and correct it. It turns out that contacts on the back of the device must be soldered close in order to enable I2C, since the device is default to the SPI interface. So with that issue resolved, at this time I am on track and within budget of my project. The [PCB schema](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/SSD1306_Wiring_Final_pcb.jpg) was designed and sent to the prototype lab for etching. I do not need to purchase any further part for the project so no additional cost is added to my original budget. Moving on to the soldering porting of the project next week.
 
 
-Week 8 Hardware
--------------------
+### October 23rd, 2018 (Week 8)
+
 This blog entry is to give an update into my progress on my hardware sensor. At this point in the semester (Week 8), I am on schedule. However, I connected the SSD1306 OLED sensor using I2C connection but it did not work. I tried various times using various appropriate pin connectors but it still didn't work. The professor suggested tried connecting using SPI instead of I2C; or in case that didn't work, tried using an Arduino to see if that works. During the course of this week I will contact Vlad or Kelly at the prototype lab to figure out this problem. So this is a minor, or possibly a major setback in my progress. It will also put me in a negative financial status since I will have to repurchase the OLED sensor in the worst case scenario.
 
 Image of what I have so far:
 [Hardware Connection](hardware.png)
 
 
-Week 7 Pseudocode Submission
--------------------------------
+### October 16th, 2018 (Week 7)
+
+This week, as outline is my [project schedule](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Project_Schedule.mpp), the submission of the Pseudocode assignment is due. I was able to meet with the two first year students and successfully complete the pesudocde assignment. 
 
 
-Week 6 
-----------
+### October 9th, 2018 (Week 6) 
 
 
-Week 5 Proof of purchase
--------------
+### October 2nd, 2018 (Week 5)
+
+This week we submit a Proof of purchase. 
+
 ### Item(s) to be delivered
 ![Item(s) to be delivered this week](Index_src/oled_display.PNG)
 
 ### Item(s) already delivered
 ![Item(s) already delivered to recipient](Index_src/pi.png)
 
-Week 4
----------------
+
+### September 25th, 2018 (Week 4)
 
 Created [budget document](Documentation/Hardware_Production_Budget.xlsx)
 
-Week 3
-----------------
+
+### September 18th, 2018 (Week 3)
 
 Created [Project Schedule](Documentation/Project_Schedule.mpp)
 
-Week 2
----------------
+
+### September 11th, 2018 (Week 2)
 
 Created [Proposal Content](Documentation/Proposal_Content.xlsx)
 
