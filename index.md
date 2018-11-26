@@ -6,7 +6,7 @@ SSD1306_OLED_Sensor
 
 Today the enclosure for the Broadcom development platform is due, as outlined in my [project schedule](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Project_Schedule.mpp). After acquiring the CorelDraw design files, I worked hard to edit these files to suite my project design. [Here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Pi2Case.cdr) is the edited file to suite my Broadcom development platform and stackable header with sensor. I am satisfied with the finished product as the enclosure is tall enough to house my sensor while providing enough protection for its contents. [Here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/PiCase.jpg) is a view of the finish product.
 
-As I complete this milestone, I am pleased to report that the project remains on track. My [financial status](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Hardware_Production_Budget.xlsx) remains unchanged as the acrylic material for the case and the laser cutting was done through to the prototype lab.
+As I complete this milestone, I am pleased to report that the project remains on track. My [financial status](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Hardware_Production_Budget.xlsx) remains unchanged as the acrylic material for the case and the laser cutting was done through the prototype lab.
 
 
 ### November 13th, 2018 (Week 11)
