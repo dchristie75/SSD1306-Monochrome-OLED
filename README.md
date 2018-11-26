@@ -9,7 +9,7 @@
 4. Assemble Files
 5. Raspberry Pi Image Creation and Test Code
 
-![Stackable](https://github.com/dchristie75/SSD1306-Monochrome-OLED/tree/master/index_src/stackable.jpg)
+![Stackable](https://github.com/dchristie75/SSD1306-Monochrome-OLED/tree/master/Index_src/pi.png)
 ![pcb](https://github.com/dchristie75/SSD1306-Monochrome-OLED/tree/master/index_src/pcb.jpg)
 
 
