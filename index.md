@@ -1,6 +1,8 @@
 
 SSD1306_OLED_Sensor
 ===============
+### November 27th, 2018 (Week 13)
+As indicated in my [project schedule](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Project_Schedule.mpp), today is the project presentation milestone. This week being the presentation, I didn't have much to do in terms of hardware setup and configuration, since all harware setup and enclosure fitting was done in previous weeks. So abviously my budget is unchanged and my schedule is on track. [Here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/CENG317%20Presentation.pptx) is a link to the presenation.   
 
 ### November 20th, 2018 (Week 12)
 
