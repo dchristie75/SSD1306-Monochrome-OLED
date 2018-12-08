@@ -1,4 +1,4 @@
-# SSD1306-monochrome-OLED
+# SSD1306 Monochrome OLED
 
 ## Build Instructions for Broadcom Devepolment Platform (Raspberry Pi 3B+) and SSD1306 OLED Display
 
