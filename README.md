@@ -4,13 +4,13 @@
 
 ### Table of Contents
 1. [Introduction](#introduction)
-2. [Bill of Materials](#bill of materials) 
+2. [Bill of Materials](#bill_of_materials) 
 3. [Time Commitment](#time commitment)
-4. [Mechanical Assembly](#mechamical assembly)
-5. [PCB/Soldering](#pcb/soldering)
-6. [Power Up](#power up)
-7. [Unit Testing](#unit testing)
-8. [Production Testing](#production testing)
+4. [Mechanical Assembly](#mechamical_assembly)
+5. [PCB/Soldering](#pcb_soldering)
+6. [Power Up](#power_up)
+7. [Unit Testing](#unit_testing)
+8. [Production Testing](#production_testing)
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.jpg)
 
