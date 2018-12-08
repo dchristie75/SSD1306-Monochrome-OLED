@@ -50,9 +50,24 @@ Final product enclosed in Acrylic case
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/PiCase.jpg)
 
 ### PCB Soldering
-Below is a image of the PCB with soldered headers for mounting the Broadcom development platform and OLED display.
+Below is the breadboard PCB design
+
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/breadboard.jpg)
+
+Below is the schema for the PCB design
+
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_schema.jpg)
+
+Below is the final PCB design sent to production 
+
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_Wiring_Final_pcb.jpg)
+
+Below is a image of the etched PCB 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/pcb.jpg)
+
+ Below is a image of the PCB with soldered headers for mounting to the Broadcom development platform and OLED display
+
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/pcbwithheaders1.jpg)
 
 ### Power Up
