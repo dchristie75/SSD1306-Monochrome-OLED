@@ -3,14 +3,14 @@
 ## Built Instruction for Broadcom Devepolment Platform (Raspberry Pi 3B+) and SSD1306 OLED Display
 
 ### Table of Contents
-1. [Introduction](#introduction)
-2. [Bill of Materials](#bill-of-materials) 
-3. [Time Commitment](#time-commitment)
-4. [Mechanical Assembly](#mechanical-assembly)
-5. [PCB/Soldering](#pcb-/-soldering)
-6. [Power Up](#power-up)
-7. [Unit Testing](#unit-testing)
-8. [Production Testing](#production-testing)
+1.  [Introduction](#introduction)
+2.  [Bill of Materials](#bill-of-materials) 
+3.  [Time Commitment](#time-commitment)
+4.  [Mechanical Assembly](#mechanical-assembly)
+5.  [PCB/Soldering](#pcb-soldering)
+6.  [Power Up](#power-up)
+7.  [Unit Testing](#unit-testing)
+8.  [Production Testing](#production-testing)
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.jpg)
 
@@ -39,7 +39,7 @@ Below is a list of the stages of mechanical assemply of the project.
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/stackable1.jpg)
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/PiCase.jpg)
 
-### PCB/Soldering
+### PCB Soldering
 Below is a image of the PCB with soldered headers for mounting the Broadcom development platform and OLED display.
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/pcb.jpg)
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/pcbwithheaders1.jpg)
