@@ -1,16 +1,16 @@
 # SSD1306-monochrome-OLED
 
-### Built Instruction for Broadcom Devepolment Platform (Raspberry Pi 3B+) and SSD1306 OLED Display
+## Built Instruction for Broadcom Devepolment Platform (Raspberry Pi 3B+) and SSD1306 OLED Display
 
 ### Table of Contents
 1. [Introduction](#introduction)
-2. [Bill of Materials](#billofmaterials) 
-3. [Time Commitment](#timecommitment)
-4. [Mechanical Assembly](#mechamicalassembly)
-5. [PCB/Soldering](#pcbsoldering)
-6. [Power Up](#powerup)
-7. [Unit Testing](#unittesting)
-8. [Production Testing](#productiontesting)
+2. [Bill of Materials](#bill-of-materials) 
+3. [Time Commitment](#time-commitment)
+4. [Mechanical Assembly](#mechamical-assembly)
+5. [PCB/Soldering](#pcb-soldering)
+6. [Power Up](#power-up)
+7. [Unit Testing](#unit-testing)
+8. [Production Testing](#production-testing)
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.jpg)
 
