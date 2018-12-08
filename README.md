@@ -64,6 +64,7 @@ Ensure you can detect the I2C interface by executing the command:
     sudo i2cdetect -y 1
     
 The I2C address should look like this
+
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_i2c_address.png)
     
 Install the `RPi.GPIO` library by executing:
@@ -74,7 +75,7 @@ Install the `RPi.GPIO` library by executing:
     
 Install the Python Imaging Library and smbus library by executing:
 
-        sudo apt-get install python-imaging python-smbus
+    sudo apt-get install python-imaging python-smbus
 
 Download and install the SSD1306 python library code and examples, execute the following commands:
 
