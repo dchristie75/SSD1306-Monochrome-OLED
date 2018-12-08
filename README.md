@@ -59,14 +59,37 @@ After connecting the OLED display with the Broadcom development platform through
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/20181113_000239.jpg)
 
 ### Unit Testing
-Install the RPi.GPIO library by executing:
+Ensure you can detect the I2C interface by executing the command:
+
+    sudo i2cdetect -y 1
+    
+The I2C address should look like this
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_i2c_address.png)
+    
+Install the `RPi.GPIO` library by executing:
 
     sudo apt-get update
     sudo apt-get install build-essential python-dev python-pip
     sudo pip install RPi.GPIO
     
-Install the SSD1306 Pytho libraries from [Github](https://github.com/adafruit/Adafruit_Python_SSD1306). 
+Install the Python Imaging Library and smbus library by executing:
 
+        sudo apt-get install python-imaging python-smbus
+
+Download and install the SSD1306 python library code and examples, execute the following commands:
+
+    sudo apt-get install git
+    git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
+    cd Adafruit_Python_SSD1306
+    sudo python setup.py install
+    
+Since for this project we are using Raspbian, check the `/etc/modprobe.d/raspi-blacklist.conf` file and comment `"blacklist i2c-bcm2708"` by running `sudo nano /etc/modprobe.d/raspi-blacklist.conf` and adding a `#` (if its not there).     
+    
+
+    
+
+#### Usage
+    
 
 
 ### Production Testing
