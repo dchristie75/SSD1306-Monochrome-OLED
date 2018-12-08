@@ -17,6 +17,7 @@
 ### Introduction
 The aim of this hardware project is to integrate a sensor/effector with the Broadcom development platform, also known as the Raspberry Pi, in order to read/write data to the device. The sensor/effecor I have chosen for this project is the SSD1306 OLED Monochrome Display from Adafruit. It is a 1" diagonal display that is made of 128X64 individual white OLED pixels that uses both SPI and I2C interfaces. Over the course of fifteen weeks I have created the project proposal, a project breakdown schedule, a budget for the project, and have acquired the hardware devices anong with the components to put them together. I have also breadboarded a circuit to test my sensor with the development platform using Fritzing. Using that design, I created a custom PCB for laser etching, then soldered the acquired components to the PCB for final assembly. The image above is the final stackable interface for the project. 
 
+
 ### Bill of Materials
 Below is the budget of the entire project along with a link to the sources of the materials. The exel file can be downloaded [here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Hardware_Production_Budget.xlsx).
 
@@ -34,6 +35,7 @@ Components kit with stackable headers
 This entire project was done over the course of fifteen weeks, starting from selecting my OLED on September 4 to submitting my Build Instructions on December 11, 2018. Below is a breakdown of the schedule.
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/project_schedule.PNG)
+
 
 ### Mechanical Assembly
 PCB design
@@ -57,6 +59,7 @@ Below is a image of the PCB with soldered headers for mounting the Broadcom deve
 After connecting the OLED display with the Broadcom development platform through the I2C interface, the power up display look like this:
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/20181113_000239.jpg)
+
 
 ### Unit Testing
 Ensure you can detect the I2C interface by executing the command:
@@ -85,12 +88,18 @@ Download and install the SSD1306 python library code and examples, execute the f
     sudo python setup.py install
     
 Since for this project we are using Raspbian, check the `/etc/modprobe.d/raspi-blacklist.conf` file and comment `"blacklist i2c-bcm2708"` by running `sudo nano /etc/modprobe.d/raspi-blacklist.conf` and adding a `#` (if its not there).     
-    
-
-    
 
 #### Usage
+Inside the `Adafruit_Python_SSD1306/examples` subdirectory are python scripts which demonstrate the usage of the library. For example, open `shapes.py`. Comment SSD1306_128_32 class and uncomment SSD1306_128_64 class. Add the the code `i2c_bus_address=3D` after rst=RST. So the the class should look like this:
+
+    disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_bus_address=3D)
     
+You can run the code by executing this command in the examples directory:
+
+    sudo python shapes.py
+
+You should see something like this: 
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/shapes.jpg)
 
 
 ### Production Testing
