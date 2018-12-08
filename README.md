@@ -35,7 +35,7 @@ Below is a list of the stages of mechanical assemply of the project.
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.jpg)
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/stackable.jpg)
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/stackable1.jpg)
-![]()
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/PiCase.jpg)
 
 ### Project Specification
 For a list of materials please download the excel file in the repository
