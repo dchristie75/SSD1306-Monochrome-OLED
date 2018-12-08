@@ -60,9 +60,11 @@ After connecting the OLED display with the Broadcom development platform through
 
 ### Unit Testing
 Install the RPi.GPIO library by executing:
+
     sudo apt-get update
     sudo apt-get install build-essential python-dev python-pip
     sudo pip install RPi.GPIO
+    
 Install the SSD1306 Pytho libraries from [Github](https://github.com/adafruit/Adafruit_Python_SSD1306). 
 
 
