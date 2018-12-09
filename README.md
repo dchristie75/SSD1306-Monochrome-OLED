@@ -46,7 +46,7 @@ Final product enclosed in Acrylic case
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/PiCase.jpg)
 
 ### PCB Soldering
-Below is the breadboard PCB design
+Below is the breadboard PCB design 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/breadboard.jpg)
 
