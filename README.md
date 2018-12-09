@@ -12,7 +12,7 @@
 7.  [Unit Testing](#unit-testing)
 8.  [Production Testing](#production-testing)
 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.png)
 
 ### Introduction
 The aim of this hardware project is to integrate a sensor/effector with the Broadcom development platform, also known as the Raspberry Pi, in order to read/write data to the device. The sensor/effecor I have chosen for this project is the SSD1306 OLED Monochrome Display from Adafruit. It is a 1" diagonal display that is made of 128X64 individual white OLED pixels that uses both SPI and I2C interfaces. Over the course of fifteen weeks I have created the project proposal, a project breakdown schedule, a budget for the project, and have acquired the hardware devices anong with the components to put them together. I have also breadboarded a circuit to test my sensor with the development platform using Fritzing. Using that design, I created a custom PCB for laser etching, then soldered the acquired components to the PCB for final assembly. The image above is the final stackable interface for the project. 
@@ -25,11 +25,12 @@ Below is the budget of the entire project along with a link to the sources of th
 
 ### Major components of the project
 SSD1306 OLED Monochrome 128x64 Display
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306.png)
+Raspberry Pi Kit
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/RasPiKit.png)
 Components kit with stackable headers
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/componentskit.jpg)
-![]()
-![]()
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/componentskit.png)
+
 
 ### Time Commitment
 This entire project was done over the course of fifteen weeks, starting from selecting my OLED on September 4 to submitting my Build Instructions on December 11, 2018. Below is a breakdown of the schedule.
@@ -39,11 +40,11 @@ This entire project was done over the course of fifteen weeks, starting from sel
 
 ### Mechanical Assembly
 SSD1306 display mounted to the PCB 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.png)
 Stackable headers with OLED display mounted to the Broadcom development platform
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/stackable1.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable2.png)
 Final product enclosed in Acrylic case
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/PiCase.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/PiEnclosure.png)
 
 ### PCB Soldering
 Below is the breadboard PCB design 
@@ -52,24 +53,24 @@ Below is the breadboard PCB design
 
 Below is the schema for the PCB design
 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_schema.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_schema.png)
 
 Below is the final PCB design sent to production 
 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_Wiring_Final_pcb.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_Wiring_Final_pcb.png)
 
 Below is a image of the etched PCB 
 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/pcb.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/pcb.png)
 
  Below is a image of the PCB with soldered headers for mounting to the Broadcom development platform and OLED display
 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/pcbwithheaders1.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable2.png)
 
 ### Power Up
 After connecting the OLED display with the Broadcom development platform through the I2C interface, the power up display look like this:
 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Index_src/20181113_000239.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/powerUpDisplay.png)
 
 
 ### Unit Testing
@@ -110,7 +111,7 @@ You can run the code by executing this command in the examples directory:
     sudo python shapes.py
 
 You should see something like this: 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/shapes.jpg)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/shapesDisplay.png)
 
 
 ### Production Testing
