@@ -73,7 +73,7 @@ After connecting the OLED display with the Broadcom development platform through
 
 
 ### Unit Testing
-Ensure you can detect the I2C interface by executing the command:
+Ensure you can detect the I2C interface by executing the command: 
 
     sudo i2cdetect -y 1
     
