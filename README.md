@@ -24,11 +24,11 @@ Below is the budget of the entire project along with a link to the sources of th
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/budget.PNG)
 
 ### Major components of the project
-SSD1306 OLED Monochrome 128x64 Display
+SSD1306 OLED Monochrome 128x64 Display<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306.png)
-Raspberry Pi Kit
+Raspberry Pi Kit<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/RasPiKit.png)
-Components kit with stackable headers
+Components kit with stackable headers<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/componentskit.png)
 
 
