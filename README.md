@@ -41,11 +41,13 @@ This entire project was done over the course of fifteen weeks, starting from sel
 
 
 ### Mechanical Assembly
-SSD1306 display mounted to the PCB 
+SSD1306 display mounted to the PCB<br/> 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.png)
-Stackable headers with OLED display mounted to the Broadcom development platform
+
+Stackable headers with OLED display mounted to the Broadcom development platform<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable2.png)
-Final product enclosed in Acrylic case
+
+Final product enclosed in Acrylic case<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/PiEnclosure.png)
 
 ### PCB Soldering
