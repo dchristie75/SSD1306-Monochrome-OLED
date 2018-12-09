@@ -48,7 +48,7 @@ Final product enclosed in Acrylic case
 ### PCB Soldering
 Below is the breadboard PCB design 
 
-![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/breadboard.png)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_BB_Wiring.png)
 
 Below is the schema for the PCB design
 
