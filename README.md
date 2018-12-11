@@ -24,7 +24,7 @@ Below is the budget of the entire project along with a link to the sources of th
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/budget.PNG)
 
-#### Major components used in the project
+#### Listed below are some of the major components used in the project
 SSD1306 OLED Monochrome 128x64 Display<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306.png)
 
