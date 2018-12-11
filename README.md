@@ -134,7 +134,7 @@ The I2C address should look like this
 
 7. Navigate to the `Adafruit_Python_SSD1306/examples` subdirectory. You will find python scripts which demonstrate the usage of the        library. For example, open `shapes.py`. Comment SSD1306_128_32 class and uncomment SSD1306_128_64 class since we are using the 128x64    display. The default address used for the Python libraries is `3C`. However, the SSD1036 display uses the address `3D`. So add the      the code `i2c_bus_address=3D` after rst=RST. So the the class should look like this:
 
-   disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_bus_address=3D)
+    disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_bus_address=3D)
     
 You can run the code by executing this command in the examples directory:
 
@@ -144,8 +144,14 @@ You should see something like this:
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/shapesDisplay.png)
 
+You have successfully integrated the Broadcom development platform with the SSD1306 Monochrome OLED display!
+
 
 ### Production Testing
+Here is the display of the final product with all the components integrated. 
+
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/PiEnclosure.png)
 
 
 ### Reproducible
+Following this build instructions carefully will ensure the project is reproducible. 
