@@ -20,7 +20,7 @@ The aim of this hardware project is to integrate a sensor/effector with the Broa
 
 
 ### Bill of Materials
-Below is the budget of the entire project along with a link to the sources of the materials. The exel file can be downloaded [here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Hardware_Production_Budget.xlsx).
+To embark on the project, the necessary parts and components will need to acquired. Displayed below is the budget of the price breakdown for components used in the project. The spreadsheet version of the budget with links to the sources for the components can be found [here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Hardware_Production_Budget.xlsx).
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/budget.PNG)
 
@@ -36,41 +36,55 @@ Components kit with stackable headers<br/>
 
 
 ### Time Commitment
-This entire project was done over the course of fifteen weeks, starting from selecting my OLED on September 4 to submitting my Build Instructions on December 11, 2018. Below is a breakdown of the schedule.
+This entire project was done over the course of fifteen weeks, starting from selecting my OLED on September 4 to submitting the Build Instructions on December 11, 2018. However, to realistically build the project, a person could potentially use a weekend to complete it, assuming he has all the necessary components. Below is the breakdown of the project schedule.
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/project_schedule.PNG)
 
 
 ### Mechanical Assembly
-SSD1306 display mounted to the PCB<br/> 
+This step involves putting everything together. Hence, ensure the [8 pin header strip](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306.png) that comes with the OLED display is securely soldered to the device. Ensure the [PCB](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/pcb.png) is designed in [Fritzing](http://fritzing.org/home/) and etched at the Prototype lab. Also, ensure the component [headers](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/componentskit.png) are soldered onto the PCB. The enclosure should also be designed in [CorelDraw](https://www.coreldraw.com/en/product/coreldraw/?topNav=en) and sent to the Prototype lab for lazer cutting. The final CorelDraw design for the enclosure can be found [here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Pi2Case.cdr). After gathering all these components, now we are ready to assemble.  
+
+1: Mount the SSD1306 display to the PCB to create a stackable header<br/> 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.png)
 
-Stackable headers with OLED display mounted to the Broadcom development platform<br/>
+2: Mount the stackable header to the Broadcom development platform GPIO port<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable2.png)
 
-Final product enclosed in Acrylic case<br/>
+3: Install the Broadcom development platform with the stackable header in Acrylic enclosure<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/PiEnclosure.png)
 
+
 ### PCB Soldering
-Below is the breadboard PCB design 
+Soldering the components will take a little effort especially if you have never soldered before. Some good lesson on soldering can be found [here](https://www.youtube.com/watch?v=oqV2xU1fee8). Here are the steps in soldering:
+
+1. Solder the 8 pin header to the OLED display.
+
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/header1.png)
+
+2. Design the initial PCB layout using a breadboard in Fritzing
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_BB_Wiring.png)
 
-Below is the schema for the PCB design
+3. Generate a schematic diagram from the PCB layout design 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_schema.png)
 
-Below is the final PCB design sent to production 
+4. From the initial breadboard wiring design and resulting schema, design the actual PCB layout in Fritzing to send to production 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_Wiring_Final_pcb.png)
 
-Below is a image of the etched PCB 
+5. Image of the resulting etched PCB after production 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/pcb.png)
 
- Below is a image of the PCB with soldered headers for mounting to the Broadcom development platform and OLED display
+6. Below is an image of the headers soldered to the PCB with OLED display mounted
+
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackabel1.png)
+
+ 7. Below is the stackable header mounting to the Broadcom development platform
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable2.png)
+
 
 ### Power Up
 After connecting the OLED display with the Broadcom development platform through the I2C interface, the power up display look like this:
