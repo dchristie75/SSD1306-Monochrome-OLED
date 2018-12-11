@@ -57,31 +57,35 @@ This step involves putting everything together. Hence, ensure the [8 pin header 
 ### PCB Soldering
 Soldering the components will take a little effort especially if you have never soldered before. Some good lesson on soldering can be found [here](https://www.youtube.com/watch?v=oqV2xU1fee8). Here are the steps in soldering:
 
-1. Solder the 8 pin header to the OLED display.
+1. Solder the two jumpers on the back of the OLED. Both must be soldered 'closed' for I2C to work.
+
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/displays_oledi2c.png)
+
+2. Solder the 8 pin header to the OLED display.
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/header1.png)
 
-2. Design the initial PCB layout using a breadboard in Fritzing
+3. Design the initial PCB layout using a breadboard in Fritzing
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_BB_Wiring.png)
 
-3. Generate a schematic diagram from the PCB layout design 
+4. Generate a schematic diagram from the PCB layout design 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_schema.png)
 
-4. From the initial breadboard wiring design and resulting schema, design the actual PCB layout in Fritzing to send to production 
+5. From the initial breadboard wiring design and resulting schema, design the actual PCB layout in Fritzing to send to production 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_Wiring_Final_pcb.png)
 
-5. Image of the resulting etched PCB after production 
+6. Image of the resulting etched PCB after production 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/pcb.png)
 
-6. Below is an image of the headers soldered to the PCB with OLED display mounted
+7. Below is an image of the headers soldered to the PCB with OLED display mounted
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackabel1.png)
 
- 7. Below is the stackable header mounting to the Broadcom development platform
+ 8. Below is the stackable header mounting to the Broadcom development platform
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable2.png)
 
@@ -95,7 +99,13 @@ After connecting the OLED display with the Broadcom development platform through
 ### Unit Testing
 For the unit to be tested successfully, access to the internet is required as the SSD1306 Oled display will need the latest libraries and the Raspbian operating system will need to be up-to-date. 
 
-1. The first step is to ensure the I2C address is detect. To do that, execute the command: 
+1. Enable the I2C interface on the Raspberry pi. Run the following command and follow the steps:
+   
+   sudo raspi-config
+   
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/enable_i2c.png)
+   
+2. The second step is to ensure the I2C address is detected. To do that, execute the command: 
 
     sudo i2cdetect -y 1
     
@@ -103,28 +113,28 @@ The I2C address should look like this
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_i2c_address.png)
     
-2. Install the `RPi.GPIO` library by executing:
+3. Install the `RPi.GPIO` library by executing:
 
     sudo apt-get update
     sudo apt-get install build-essential python-dev python-pip
     sudo pip install RPi.GPIO
     
-3. Install the Python Imaging Library and smbus library by executing:
+4. Install the Python Imaging Library and smbus library by executing:
 
     sudo apt-get install python-imaging python-smbus
 
-4. Download and install the SSD1306 python library code and examples, execute the following commands:
+5. Download and install the SSD1306 python library code and examples, execute the following commands:
 
     sudo apt-get install git
     git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
     cd Adafruit_Python_SSD1306
     sudo python setup.py install
     
-5. Since we are using Raspbian operating system for this project, check the `/etc/modprobe.d/raspi-blacklist.conf` file and comment        `"blacklist i2c-bcm2708"` by running `sudo nano /etc/modprobe.d/raspi-blacklist.conf` and adding a `#` (if its not there).     
+6. Since we are using Raspbian operating system for this project, check the `/etc/modprobe.d/raspi-blacklist.conf` file and comment        `"blacklist i2c-bcm2708"` by running `sudo nano /etc/modprobe.d/raspi-blacklist.conf` and adding a `#` (if its not there).     
 
-6. Navigate to the `Adafruit_Python_SSD1306/examples` subdirectory. You will find python scripts which demonstrate the usage of the        library. For example, open `shapes.py`. Comment SSD1306_128_32 class and uncomment SSD1306_128_64 class since we are using the 128x64    display. The default address used for the Python libraries is `3C`. However, the SSD1036 display uses the address `3D`. So add the      the code `i2c_bus_address=3D` after rst=RST. So the the class should look like this:
+7. Navigate to the `Adafruit_Python_SSD1306/examples` subdirectory. You will find python scripts which demonstrate the usage of the        library. For example, open `shapes.py`. Comment SSD1306_128_32 class and uncomment SSD1306_128_64 class since we are using the 128x64    display. The default address used for the Python libraries is `3C`. However, the SSD1036 display uses the address `3D`. So add the      the code `i2c_bus_address=3D` after rst=RST. So the the class should look like this:
 
-    disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_bus_address=3D)
+   disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_bus_address=3D)
     
 You can run the code by executing this command in the examples directory:
 
