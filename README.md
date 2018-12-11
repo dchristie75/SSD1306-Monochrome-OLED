@@ -16,7 +16,7 @@
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.png)
 
 ### Introduction
-The aim of this hardware project is to integrate a sensor/effector with the Broadcom development platform, also known as the Raspberry Pi, in order to read/write data to the device. The sensor/effecor chosen for this project is the SSD1306 OLED Monochrome Display from Adafruit. It is a 1" diagonal display that is made of 128X64 individual white OLED pixels that uses both SPI and I2C interfaces. Over the course of fifteen weeks, few necessary documentations were created, including the project proposal, a project breakdown schedule, and budget for the project. The necessary hardware components were also acquired, along with the required components to put everything together. A wiring circuit diagram was developed in [Fritzing](http://fritzing.org/home/) and was used to breadboard and test the sensor with the Broadcom development platform. Using that prototype, a custom PCB was designed and sent to the Prototype lab for etching. Headers were then soldered to the PCB for stacking and final assembly. The image above demonstrate the final stackable interface for the project. 
+The aim of this project is to integrate a sensor/effector with the Broadcom development platform, also known as the Raspberry Pi, in order to read/write data to the device. The sensor/effector chosen for this project is the SSD1306 OLED Monochrome Display from Adafruit. It is a 1" diagonal display that is made of 128x64 individual white OLED pixels that uses both SPI and I2C interfaces. Over the course of fifteen weeks, few necessary documentations were created, including the project proposal, a project breakdown schedule, and budget for the project. The necessary hardware components were also acquired, along with the required components to put everything together. A wiring circuit diagram was developed in [Fritzing](http://fritzing.org/home/) and was used to breadboard and test the sensor with the Broadcom development platform. Using that prototype, a custom PCB was designed and sent to the Prototype lab for etching. Headers were then soldered to the PCB for stacking and final assembly. The image above demonstrate the final stackable interface for the project. 
 
 
 ### Bill of Materials
@@ -36,28 +36,28 @@ Components kit with stackable headers<br/>
 
 
 ### Time Commitment
-This entire project was done over the course of fifteen weeks, starting from selecting my OLED on September 4 to submitting the Build Instructions on December 11, 2018. However, to realistically build the project, a person could potentially use a weekend to complete it, assuming he has all the necessary components. Below is the breakdown of the project schedule.
+The entire project was done over the course of fifteen weeks, starting from selecting the OLED on September 4 to submitting the Build Instructions on December 11, 2018. However, to realistically build the project, a person could potentially use a weekend to complete it, assuming he has all the necessary components. Below is a breakdown of the project schedule.
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/project_schedule.PNG)
 
 
 ### Mechanical Assembly
-This step involves putting everything together. Hence, ensure the [8 pin header strip](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306.png) that comes with the OLED display is securely soldered to the device. Ensure the [PCB](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/pcb.png) is designed in [Fritzing](http://fritzing.org/home/) and etched at the Prototype lab. Also, ensure the component [headers](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/componentskit.png) are soldered onto the PCB. The enclosure should also be designed in [CorelDraw](https://www.coreldraw.com/en/product/coreldraw/?topNav=en) and sent to the Prototype lab for lazer cutting. The final CorelDraw design for the enclosure can be found [here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Pi2Case.cdr). After gathering all these components, now we are ready to assemble.  
+This step involves putting everything together. Hence, ensure the [8 pin header strip](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306.png) that comes with the OLED display is securely soldered to the device. Ensure the [PCB](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/pcb.png) is designed in [Fritzing](http://fritzing.org/home/) and etched at the Prototype lab. Also, ensure the component [headers](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/componentskit.png) are soldered onto the PCB. The enclosure should also be designed in [CorelDraw](https://www.coreldraw.com/en/product/coreldraw/?topNav=en) and sent to the Prototype lab for lazer cutting. The final CorelDraw design for the enclosure can be found [here](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/Documentation/Pi2Case.cdr). After gathering all these components, now we are ready to assemble. Here are the steps involved: 
 
-1: Mount the SSD1306 display to the PCB to create a stackable header<br/> 
+1. Mount the SSD1306 display to the PCB to create a stackable header<br/> 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.png)
 
-2: Mount the stackable header to the Broadcom development platform GPIO port<br/>
+2. Mount the stackable header to the Broadcom development platform GPIO port<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable2.png)
 
-3: Install the Broadcom development platform with the stackable header in Acrylic enclosure<br/>
+3. Install the Broadcom development platform with the stackable header in Acrylic enclosure<br/>
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/PiEnclosure.png)
 
 
 ### PCB Soldering
-Soldering the components will take a little effort especially if you have never soldered before. Some good lesson on soldering can be found [here](https://www.youtube.com/watch?v=oqV2xU1fee8). Here are the steps in soldering:
+Soldering the components will take a little effort especially if you have never soldered before. Some good lesson on soldering can be found [here](https://www.youtube.com/watch?v=oqV2xU1fee8). Here are the steps in soldering all the components for the project:
 
-1. Solder the two jumpers on the back of the OLED. Both must be soldered 'closed' for I2C to work.
+1. Solder the two jumpers on the back of the OLED. Both must be soldered 'closed' for the I2C interface to work.
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/displays_oledi2c.png)
 
@@ -65,11 +65,11 @@ Soldering the components will take a little effort especially if you have never 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/header1.png)
 
-3. Design the initial PCB layout using a breadboard in Fritzing
+3. Design the initial breadboard layout for the PCB in Fritzing
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/SSD1306_BB_Wiring.png)
 
-4. Generate a schematic diagram from the PCB layout design 
+4. The breadboard design layout will automatically generate a schematic diagram for the PCB design 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_schema.png)
 
@@ -91,17 +91,17 @@ Soldering the components will take a little effort especially if you have never 
 
 
 ### Power Up
-After connecting the OLED display with the Broadcom development platform through the I2C interface, the power up display look like this:
+After connecting the OLED display with the Broadcom development platform through the I2C interface, the power up display looks like this:
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/powerUpDisplay.png)
 
 
 ### Unit Testing
-For the unit to be tested successfully, access to the internet is required as the SSD1306 Oled display will need the latest libraries and the Raspbian operating system will need to be up-to-date. 
+For the unit to be tested successfully, access to the internet is required as the SSD1306 Oled display will need the latest Python libraries and the Raspbian operating system will need to be up-to-date. Here are the steps involved in testing the unit:
 
 1. Enable the I2C interface on the Raspberry pi. Run the following command and follow the steps:
-   
-   sudo raspi-config
+  
+  sudo raspi-config
    
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/enable_i2c.png)
    
@@ -114,7 +114,7 @@ The I2C address should look like this
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/ssd1306_i2c_address.png)
     
 3. Install the `RPi.GPIO` library by executing:
-
+        
     sudo apt-get update
     sudo apt-get install build-essential python-dev python-pip
     sudo pip install RPi.GPIO
@@ -124,7 +124,7 @@ The I2C address should look like this
     sudo apt-get install python-imaging python-smbus
 
 5. Download and install the SSD1306 python library code and examples, execute the following commands:
-
+   
     sudo apt-get install git
     git clone https://github.com/adafruit/Adafruit_Python_SSD1306.git
     cd Adafruit_Python_SSD1306
@@ -137,7 +137,7 @@ The I2C address should look like this
     disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_bus_address=3D)
     
 You can run the code by executing this command in the examples directory:
-
+    
     sudo python shapes.py
 
 You should see something like this: 
