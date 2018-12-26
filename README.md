@@ -136,15 +136,15 @@ The I2C address should look like this
 
        disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST, i2c_bus_address=3D) 
     
-You can run the code by executing this command in the examples directory:
-
+   You can run the code by executing this command in the examples directory: 
+   
        sudo python shapes.py
 
-You should see something like this: 
+   You should see something like this: 
 
 ![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/shapesDisplay.png)
 
-You have successfully integrated the Broadcom development platform with the SSD1306 Monochrome OLED display!
+   You have successfully integrated the Broadcom development platform with the SSD1306 Monochrome OLED display!
 
 
 ### Production Testing
